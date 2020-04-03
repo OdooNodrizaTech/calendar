@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="view_calendar_event_meeting_act_form" model="ir.ui.view">
+    <field name="model">calendar.event</field>
+    <field name="inherit_id" ref="calendar.view_calendar_event_form"/>
+    <field name="arch" type="xml">
+      <field name="allday" position="after">
+        <field name="meeting_act_id"/>
+      </field>            
+    </field>
+  </record>
+  <record id="calendar_event_meeting_act_tree" model="ir.ui.view">
+    <field name="model">calendar.event</field>
+    <field name="inherit_id" ref="calendar.view_calendar_event_tree"/>
+    <field name="arch" type="xml">
+      <field name="allday" position="before">
+        <field name="meeting_act_id"/>
+      </field>            
+    </field>
+  </record>      
+</odoo>

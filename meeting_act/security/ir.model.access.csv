@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_meeting_act_admin,meeting.act,model_meeting_act,,1,1,1,1
+access_meeting_act_group_user,meeting.act.user,model_meeting_act,base.group_user,1,1,1,1
+access_meeting_act_category_admin,meeting.act.category,model_meeting_act_category,,1,1,1,1
+access_meeting_act_category_group_user,meeting.act.category.user,model_meeting_act_category,base.group_user,1,1,1,1
