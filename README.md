@@ -7,4 +7,4 @@ Addons
 ----------------
 nombre | version
 --- | ---
-[meeting_act](meeting_act/) | 10.0.1.0.0
+[meeting_act](meeting_act/) | 12.0.1.0.0
