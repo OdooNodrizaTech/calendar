@@ -1,3 +1,3 @@
-import calendar_event
-import meeting_act
-import meeting_act_category
+from . import calendar_event
+from . import meeting_act
+from . import meeting_act_category 
