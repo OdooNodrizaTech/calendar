@@ -1,0 +1,226 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* meeting_act
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0-20200601\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-08 12:05+0000\n"
+"PO-Revision-Date: 2020-07-08 12:05+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: meeting_act
+#: model_terms:ir.ui.view,arch_db:meeting_act.meeting_act_form_view
+msgid "Acta reunion"
+msgstr ""
+
+#. module: meeting_act
+#: model:ir.actions.act_window,name:meeting_act.meeting_act_action
+#: model:ir.ui.menu,name:meeting_act.menuitem_meeting_act
+#: model_terms:ir.ui.view,arch_db:meeting_act.meeting_act_tree
+msgid "Acta reuniones"
+msgstr ""
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_needaction
+msgid "Action Needed"
+msgstr "Acción Necesaria"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_attachment_count
+msgid "Attachment Count"
+msgstr "Conteo de archivos adjuntos"
+
+#. module: meeting_act
+#: model:ir.actions.act_window,name:meeting_act.meeting_act_category_action
+#: model:ir.ui.menu,name:meeting_act.menuitem_meeting_act_category
+#: model_terms:ir.ui.view,arch_db:meeting_act.meeting_act_category_tree
+msgid "Categoría acta reuniones"
+msgstr ""
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__create_uid
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act_category__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__create_date
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act_category__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__display_name
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act_category__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: meeting_act
+#: model:ir.model,name:meeting_act.model_calendar_event
+msgid "Event"
+msgstr "Evento"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__failed_message_ids
+msgid "Failed Messages"
+msgstr "Mensajes Fallidos"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Empresas)"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__id
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act_category__id
+msgid "ID"
+msgstr ""
+
+#. module: meeting_act
+#: model:ir.model.fields,help:meeting_act.field_meeting_act__message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención"
+
+#. module: meeting_act
+#: model:ir.model.fields,help:meeting_act.field_meeting_act__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención."
+
+#. module: meeting_act
+#: model:ir.model.fields,help:meeting_act.field_meeting_act__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si se encuentra marcado, algunos mensajes tienen error de envío."
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_is_follower
+msgid "Is Follower"
+msgstr "Es un seguidor"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act____last_update
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act_category____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__write_uid
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act_category__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__write_date
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act_category__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjuntos principales"
+
+#. module: meeting_act
+#: model:ir.model,name:meeting_act.model_meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_calendar_event__meeting_act_id
+msgid "Meeting act"
+msgstr ""
+
+#. module: meeting_act
+#: model:ir.model,name:meeting_act.model_meeting_act_category
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__meeting_act_category_id
+msgid "Meeting act category"
+msgstr ""
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de Envío de Mensaje"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__name
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act_category__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_has_error_counter
+msgid "Number of error"
+msgstr "Número de error"
+
+#. module: meeting_act
+#: model:ir.model.fields,help:meeting_act.field_meeting_act__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: meeting_act
+#: model:ir.model.fields,help:meeting_act.field_meeting_act__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de envío"
+
+#. module: meeting_act
+#: model:ir.model.fields,help:meeting_act.field_meeting_act__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leidos"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes por leer"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes sin leer"
+
+#. module: meeting_act
+#: model:ir.model.fields,field_description:meeting_act.field_meeting_act__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: meeting_act
+#: model:ir.model.fields,help:meeting_act.field_meeting_act__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicaciones del sitio web"
+
+#. module: meeting_act
+#: model_terms:ir.ui.view,arch_db:meeting_act.meeting_act_form_view
+msgid "child"
+msgstr ""
+
