@@ -2,10 +2,10 @@
 <openerp>
     <data>
         <record id="meeting_act_form_view" model="ir.ui.view">
-            <field name="name">Acta reuniones</field>
+            <field name="name">meeting_act_form_view</field>
             <field name="model">meeting.act</field>
             <field name="arch" type="xml">
-                <form string="Acta reunion">
+                <form string="Meeting act">
                     <sheet string="child">
                         <group>
                             <field name="name"/>
@@ -22,10 +22,10 @@
             </field>
         </record>           
         <record id="meeting_act_tree" model="ir.ui.view">
-            <field name="name">Actas reuniones</field>
+            <field name="name">meeting_act_tree</field>
             <field name="model">meeting.act</field>
              <field name="arch" type="xml">
-                <tree string="Acta reuniones">
+                <tree string="Meeting acts">
                     <field name="name"/>
                     <field name="meeting_act_category_id"/>
                     <field name="date"/>
@@ -34,23 +34,23 @@
             </field>            
         </record>
         <record model="ir.actions.act_window" id="meeting_act_action">
-            <field name="name">Acta reuniones</field>
+            <field name="name">meeting_act_action</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">meeting.act</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
         <record id="meeting_act_category_tree" model="ir.ui.view">
-            <field name="name">Categoría actas reuniones</field>
+            <field name="name">meeting_act_category_tree</field>
             <field name="model">meeting.act.category</field>
              <field name="arch" type="xml">
-                <tree string="Categoría acta reuniones">
+                <tree string="Meeting act categories">
                     <field name="name"/>                                        
                 </tree>
             </field>            
         </record>
         <record model="ir.actions.act_window" id="meeting_act_category_action">
-            <field name="name">Categoría acta reuniones</field>
+            <field name="name">meeting_act_category_action</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">meeting.act.category</field>
             <field name="view_type">form</field>
@@ -58,13 +58,13 @@
         </record>
         <menuitem 
             action="meeting_act_action" 
-            name="Acta reuniones"
+            name="Meeting acts"
             id="menuitem_meeting_act" 
             parent="calendar.menu_calendar_configuration"
         />
         <menuitem 
             action="meeting_act_category_action" 
-            name="Categoría acta reuniones"
+            name="Meeting act categories"
             id="menuitem_meeting_act_category" 
             parent="calendar.menu_calendar_configuration"
         />
