@@ -2,7 +2,7 @@
 <openerp>
     <data>
         <record id="meeting_act_form_view" model="ir.ui.view">
-            <field name="name">meeting_act_form_view</field>
+            <field name="name">Meeting act</field>
             <field name="model">meeting.act</field>
             <field name="arch" type="xml">
                 <form string="Meeting act">
@@ -22,7 +22,7 @@
             </field>
         </record>           
         <record id="meeting_act_tree" model="ir.ui.view">
-            <field name="name">meeting_act_tree</field>
+            <field name="name">Meeting acts</field>
             <field name="model">meeting.act</field>
              <field name="arch" type="xml">
                 <tree string="Meeting acts">
@@ -34,14 +34,14 @@
             </field>            
         </record>
         <record model="ir.actions.act_window" id="meeting_act_action">
-            <field name="name">meeting_act_action</field>
+            <field name="name">Meeting act</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">meeting.act</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
         <record id="meeting_act_category_tree" model="ir.ui.view">
-            <field name="name">meeting_act_category_tree</field>
+            <field name="name">Meeting act categories</field>
             <field name="model">meeting.act.category</field>
              <field name="arch" type="xml">
                 <tree string="Meeting act categories">
@@ -50,7 +50,7 @@
             </field>            
         </record>
         <record model="ir.actions.act_window" id="meeting_act_category_action">
-            <field name="name">meeting_act_category_action</field>
+            <field name="name">Meeting act category</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">meeting.act.category</field>
             <field name="view_type">form</field>
