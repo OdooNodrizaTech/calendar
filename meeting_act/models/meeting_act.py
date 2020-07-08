@@ -4,18 +4,19 @@ from odoo import api, models, fields
 
 class MeetingAct(models.Model):
     _name = 'meeting.act'
+    _description = 'Meeting act'
     _inherit = ['mail.thread']
 
     name = fields.Char(
-        string="Nombre"
+        string="Name"
     )
     date = fields.Date(
-        string="Fecha"
+        string="Date"
     )
     meeting_act_category_id = fields.Many2one(
         comodel_name='meeting.act.category', 
-        string='Categoría acta reunion',
+        string='Meeting act category',
     )
     description = fields.Text(
-        string="Descripcion"
+        string="Description"
     )

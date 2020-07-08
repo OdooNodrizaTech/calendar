@@ -12,5 +12,5 @@ class CalendarEvent(models.Model):
         
     meeting_act_id = fields.Many2one(
         comodel_name='meeting.act', 
-        string='Acta reunion',
+        string='Meeting act',
     )                                                 
