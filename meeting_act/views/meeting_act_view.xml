@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<openerp>
+<odoo>
     <data>
+
         <record id="meeting_act_form_view" model="ir.ui.view">
             <field name="name">Meeting act</field>
             <field name="model">meeting.act</field>
@@ -20,7 +21,8 @@
                     </div>
                 </form>
             </field>
-        </record>           
+        </record>
+
         <record id="meeting_act_tree" model="ir.ui.view">
             <field name="name">Meeting acts</field>
             <field name="model">meeting.act</field>
@@ -33,6 +35,7 @@
                 </tree>
             </field>            
         </record>
+
         <record model="ir.actions.act_window" id="meeting_act_action">
             <field name="name">Meeting act</field>
             <field name="type">ir.actions.act_window</field>
@@ -40,6 +43,7 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
+
         <record id="meeting_act_category_tree" model="ir.ui.view">
             <field name="name">Meeting act categories</field>
             <field name="model">meeting.act.category</field>
@@ -49,6 +53,7 @@
                 </tree>
             </field>            
         </record>
+
         <record model="ir.actions.act_window" id="meeting_act_category_action">
             <field name="name">Meeting act category</field>
             <field name="type">ir.actions.act_window</field>
@@ -56,6 +61,7 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
+
         <menuitem 
             action="meeting_act_action" 
             name="Meeting acts"
@@ -69,4 +75,4 @@
             parent="calendar.menu_calendar_configuration"
         />
     </data>
-</openerp>
+</odoo>
