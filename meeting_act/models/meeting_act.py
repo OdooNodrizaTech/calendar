@@ -1,6 +1,7 @@
-# -*- coding: utf-8 -*-
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
-from odoo import api, models, fields
+
+from odoo import models, fields
+
 
 class MeetingAct(models.Model):
     _name = 'meeting.act'
@@ -14,7 +15,7 @@ class MeetingAct(models.Model):
         string="Date"
     )
     meeting_act_category_id = fields.Many2one(
-        comodel_name='meeting.act.category', 
+        comodel_name='meeting.act.category',
         string='Meeting act category',
     )
     description = fields.Text(
