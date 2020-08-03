@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/OdooNodrizaTech/calendar.svg?branch=12.0)](https://travis-ci.org/OdooNodrizaTech/calendar)
 [![Coverage Status](https://coveralls.io/repos/github/OdooNodrizaTech/calendar/badge.svg?branch=12.0)](https://coveralls.io/github/OdooNodrizaTech/calendar?branch=12.0)
+[![codecov](https://codecov.io/gh/OdooNodrizaTech/calendar/branch/12.0/graph/badge.svg)](https://codecov.io/gh/OdooNodrizaTech/calendar)
 
 calendar
 =========
